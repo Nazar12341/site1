@@ -1,0 +1,35 @@
+@keyframes color-change {
+    0% {
+      color: rgb(218, 255, 213);
+    }
+  
+    50% {
+      color: rgb(55, 141, 59);
+    }
+  
+    100% {
+      color: rgb(15, 94, 19);
+    }
+}
+
+body {
+	font-family: 'Comic Sans MS', cursive, sans-serif; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background: linear-gradient(#e2ffc8, #90ff58);;
+    color: #10921b; /* Цвет основного текста */ 
+}
+h1 {
+    animation: color-change 3s infinite;
+    font-size: 40px; 
+    font-family: 'URW Chancery L', cursive;
+  }
+h3 {
+    color: #5c9828; /* Цвет заголовка */
+    font-size: 17px; /* Размер шрифта в пунктах */
+	font-family: 'URW Chancery L', cursive; /* Семейство шрифтов */
+}
+li {
+    color: #426920; /* Цвет заголовка */
+    font-size: 20px; /* Размер шрифта в пунктах */
+	font-family: 'URW Chancery L', cursive; /* Семейство шрифтов */
+}
